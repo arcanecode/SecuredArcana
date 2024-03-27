@@ -16,23 +16,23 @@ Also be sure to review the about file using Get-Help about_SecureArcana.
   Below are the main commands in the SecureArcana module for handling secure passwords
   and credentials.
 
-##### ConvertFrom-SecuredPassword
+#### ConvertFrom-SecuredPassword
 
 Extracts a password from a PSCredential object.
 
-##### Get-SecuredCredential
+#### Get-SecuredCredential
 
 Retrieves a PSCredential object from a file.
 
-##### New-SecureKeyFile
+#### New-SecureKeyFile
 
 Creates a new secure key file.
 
-##### Write-SecuredPassword
+#### Write-SecuredPassword
 
 Writes a password to a file in a secure manner.
 
-##### Get-SecureArcanaCommands
+#### Get-SecureArcanaCommands
 
 Lists all the commands in the SecureArcana module.
 
@@ -40,10 +40,11 @@ Lists all the commands in the SecureArcana module.
 
   The commands that begin with "Open-" provide an easy way to quickly access both the authors blog site and the GitHub site for the SecureArcana module.
 
-##### Open-AboutArcaneCode
+#### Open-AboutArcaneCode
+
 Opens the authors blog site to the "About Me" page with more information on his other projects.
 
-##### Open-SecureArcanaGitHub
+#### Open-SecureArcanaGitHub
 
 Opens the GitHub site in the default browser for the SecureArcana module.
 
@@ -51,19 +52,19 @@ Opens the GitHub site in the default browser for the SecureArcana module.
 
 The commands that begin with "Use-" provide code samples for using the SecureArcana functions. They place a copy of the sample into the clipboard to allow you to quickly assemble your scripts.
 
-##### Use-ConvertFromSecuredPassword
+#### Use-ConvertFromSecuredPassword
 
 Provides and creates a code sample for using the ConvertFrom-SecuredPassword function.
 
-##### Use-GetSecuredCredential
+#### Use-GetSecuredCredential
 
 Provides and creates a code sample for using the Get-SecuredCredential function.
 
-##### Use-NewSecureKeyFile
+#### Use-NewSecureKeyFile
 
 Provides and creates a code sample for using the New-SecureKeyFile function.
 
-##### Use-WriteSecuredPassword
+#### Use-WriteSecuredPassword
 
 Provides and creates a code sample for using the Write-SecuredPassword function.
 
