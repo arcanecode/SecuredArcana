@@ -1,0 +1,49 @@
+
+about_SecuredArcana
+
+SHORT DESCRIPTION
+   Manages the encryption and decryption of passwords and keys stored on disk.
+
+LONG DESCRIPTION
+   Begin by writing the password to a secure file using Write-SecuredPassword.
+   You pass in the password, along with the path to the key file.
+
+   Optionally, you can also use a "key file", which you can create using New-SecurityKeyFile.
+   When you use a key file, you can move the encrypted files between computers and use them easily. 
+   This is ideal when you are storing passwords for things like system services.
+
+   Without a key file, the encrypted credentials can only be used on the computer on which they were created.
+
+   You can use one key file for all passwords, or create a key for each credential (recommended).
+
+   To retrieve a credential object for use with commands such as Invoke-Command, use Get-SecuredCredential.
+   Pass in the password file, the user name associated with it, and if used the key file. It will return a credential object.
+
+   Need to get the password back from the credential in plain text? Then use ConvertFrom-SecuredCredential. Pass in the credential and it will return the password.
+
+   Add the -NoClipboard switch if you do not want the password copied to the clipboard.
+
+NOTE
+   Author: Robert C Cain | @ArcaneCode | arcane@arcanetc.com
+
+   This code is Copyright (c) 2023, 2024 Robert C Cain All rights reserved
+
+   The code herein is for demonstration purposes. No warranty or guarantee
+   is implied or expressly granted.
+
+   This module may not be reproduced in whole or in part without the express
+   written consent of the author.
+
+TROUBLESHOOTING NOTE
+   Help for the about_* topics doesn't work correctly on all versions of
+   Linux due to issues with PowerShell's Help system.
+
+SEE ALSO
+     https://github.com/arcanecode/SecuredArcana
+     https://arcanecode.com/info/
+
+ABOUT TOPICS
+   about_SecuredArcana
+
+KEYWORDS
+     Cryptography, Credential

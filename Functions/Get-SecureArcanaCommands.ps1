@@ -1,10 +1,44 @@
-# SecuredArcana
+<#
+.SYNOPSIS
+Lists all the commands in the SecureArcana module.
 
-## Introduction
+.DESCRIPTION
+This will return a list of commands in the SecureArcana module, along with a brief sysnopsis of each.
 
-This module was created to make the storage and retrieval of encrypted credentials easier.
+.INPUTS
+This cmdlet has no inputs.
 
-## Commands
+.OUTPUTS
+None
+
+.EXAMPLE
+Get-SecureArcanaCommands
+
+.NOTES
+SecuredArcana - Get-SecureArcanaCommands.ps1
+
+Author: Robert C Cain | @ArcaneCode | arcane@arcanetc.com
+
+This code is Copyright (c) 2023, 2024 Robert C Cain All rights reserved
+
+The code herein is for demonstration purposes.
+No warranty or guarantee is implied or expressly granted.
+
+This module may not be reproduced in whole or in part without
+the express written consent of the author.
+
+.LINK
+https://github.com/arcanecode/SecuredArcana
+
+.LINK
+http://arcanecode.me
+
+#>
+function Get-SecureArcanaCommands {
+  [CmdletBinding()]
+  param (  )
+
+  $headerMsg = @'
 
 Below is a listing of all the commands in the SecureArcana module, along with a brief synopsis of each.
 
@@ -56,28 +90,8 @@ Use Commands -------------------------------------------------------------------
   Use-WriteSecuredPassword
     Provides and creates a code sample for using the Write-SecuredPassword function.
 
----
+'@
 
-## Author Information
+  Write-Host $headerMsg
 
-### Author
-
-Robert C. Cain | [@ArcaneCode](https://twitter.com/arcanecode) | arcane@arcanetc.com
-
-### Websites
-
-About Me: [http://arcanecode.me](http://arcanecode.me)
-
-Blog: [http://arcanecode.com](http://arcanecode.com)
-
-Github: [http://arcanerepo.com](http://arcanerepo.com)
-
-LinkedIn: [http://arcanecode.in](http://arcanecode.in)
-
-### Copyright Notice
-
-This document is Copyright (c) 2023, 2024 Robert C. Cain. All rights reserved.
-
-The code samples herein is for demonstration purposes. No warranty or guarantee is implied or expressly granted.
-
-This document may not be reproduced in whole or in part without the express written consent of the author. Information within can be used within your own projects.
+}
