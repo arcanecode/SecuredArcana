@@ -11,6 +11,8 @@ Below is a listing of all the commands in the SecureArcana module, along with a 
 For more help on a specific command, use Get-Help <command> -Full.
 Also be sure to review the about file using Get-Help about_SecureArcana.
 
+-----
+
 ### Main Commands
 
   Below are the main commands in the SecureArcana module for handling secure passwords
@@ -36,6 +38,8 @@ Writes a password to a file in a secure manner.
 
 Lists all the commands in the SecureArcana module.
 
+-----
+
 ### Open Commands
 
   The commands that begin with "Open-" provide an easy way to quickly access both the authors blog site and the GitHub site for the SecureArcana module.
@@ -47,6 +51,8 @@ Opens the authors blog site to the "About Me" page with more information on his 
 #### Open-SecureArcanaGitHub
 
 Opens the GitHub site in the default browser for the SecureArcana module.
+
+-----
 
 ### Use Commands
 
@@ -67,6 +73,8 @@ Provides and creates a code sample for using the New-SecureKeyFile function.
 #### Use-WriteSecuredPassword
 
 Provides and creates a code sample for using the Write-SecuredPassword function.
+
+-----
 
 ## Author Information
 
