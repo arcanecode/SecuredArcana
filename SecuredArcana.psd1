@@ -34,7 +34,7 @@
   Description = 'This module handles the secure storage and decryption of credentials'
 
   # Version number for the module
-  ModuleVersion = '0.5.11'
+  ModuleVersion = '1.0.0'
 
   # Minimum version of PowerShell needed to run this module
   PowerShellVersion = '7.0'
